@@ -56,7 +56,7 @@ Features:
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Calendar.desktop
 %{_datadir}/dbus-1/services/org.gnome.Calendar.service
-%{_metainfodir}/org.gnome.*.xml
+%{_datadir}/metainfo/org.gnome.*.xml
 %{_datadir}/glib-2.0/schemas/org.gnome.calendar.enums.xml
 %{_datadir}/glib-2.0/schemas/org.gnome.calendar.gschema.xml
 # co-own these directories

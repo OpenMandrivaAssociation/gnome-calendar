@@ -26,6 +26,7 @@ BuildRequires:	pkgconfig(gweather-3.0)
 BuildRequires:	pkgconfig(libgeoclue-2.0)
 BuildRequires:	pkgconfig(libedataserver-1.2) >= %{edataserver_version}
 BuildRequires:	pkgconfig(libical) >= %{libical_version}
+BuildRequires:  pkgconfig(libhandy-0.0)
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(gsettings-desktop-schemas)

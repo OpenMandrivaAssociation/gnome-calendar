@@ -3,7 +3,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-calendar
-Version:	3.34.2
+Version:	3.36.0
 Release:	1
 Summary:	Simple and beautiful calendar application designed to fit GNOME 3
 
@@ -26,6 +26,7 @@ BuildRequires:	pkgconfig(gweather-3.0)
 BuildRequires:	pkgconfig(libgeoclue-2.0)
 BuildRequires:	pkgconfig(libedataserver-1.2) >= %{edataserver_version}
 BuildRequires:	pkgconfig(libical) >= %{libical_version}
+BuildRequires:  pkgconfig(libhandy-0.0)
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(gsettings-desktop-schemas)

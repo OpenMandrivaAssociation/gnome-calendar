@@ -3,7 +3,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-calendar
-Version:	43.0
+Version:	43.1
 Release:	1
 Summary:	Simple and beautiful calendar application designed to fit GNOME 3
 

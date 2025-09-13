@@ -16,6 +16,7 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:	gettext
 BuildRequires:	gtk-doc
 BuildRequires:	meson
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gtk4)

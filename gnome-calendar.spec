@@ -4,7 +4,7 @@
 
 Name:		gnome-calendar
 Version:	50.0
-Release:	2
+Release:	3
 Summary:	Simple and beautiful calendar application designed to fit GNOME 3
 
 License:	GPLv3+

@@ -33,7 +33,9 @@ BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(gsettings-desktop-schemas)
-BuildRequires:  typelib(Gtk)
+BuildRequires:  typelib(Gtk) = 4.0
+BuildRequires:  typelib(Adw)
+
 
 %description
 Calendar is a simple and beautiful calendar application designed to fit

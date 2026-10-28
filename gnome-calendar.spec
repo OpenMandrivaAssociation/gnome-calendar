@@ -4,7 +4,7 @@
 
 Name:		gnome-calendar
 Version:	51.0
-Release:	2
+Release:	3
 Summary:	Simple and beautiful calendar application designed to fit GNOME 3
 
 License:	GPLv3+
@@ -35,7 +35,9 @@ BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(gsettings-desktop-schemas)
-BuildRequires:  typelib(Gtk)
+BuildRequires:  typelib(Gtk) = 4.0
+BuildRequires:  typelib(Adw)
+
 
 %description
 Calendar is a simple and beautiful calendar application designed to fit

@@ -4,7 +4,7 @@
 
 Name:		gnome-calendar
 Version:	51.0
-Release:	1
+Release:	2
 Summary:	Simple and beautiful calendar application designed to fit GNOME 3
 
 License:	GPLv3+
@@ -12,6 +12,8 @@ URL:		https://wiki.gnome.org/Apps/Calendar
 Group:		Graphical desktop/GNOME
 
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+# from Arch
+Patch0:		0001-Support-libical-4.0.0.patch
 
 BuildRequires:	gettext
 BuildRequires:	gtk-doc
